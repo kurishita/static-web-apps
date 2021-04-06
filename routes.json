@@ -9,11 +9,11 @@
             "statusCode": "401"
         },
         {
-            "route": "/member/",
+            "route": "/member/*",
             "serve": "/member/index.html",
             "allowedRoles": [
                 "reader",
-                "contributtor"
+                "contributor"
             ]
         },
         {
