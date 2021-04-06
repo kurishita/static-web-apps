@@ -4,12 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
-        <title>Azure Static Web Sample</title>
+        <title>Hello</title>
     </head>
 
     <body>
-        <main>
-            <h1>Hello Azure Static Web Apps!!</h1>
-        </main>
+        <h1>Hello (public page)</h1>
+
+        <a href="/member/index.html">ページ</a>へのアクセスは認証が必要です。
+
+        <li><a href="/.auth/login/google?post_login_redirect_uri=/member/">Googleでログイン</a></li>
+        <li><a href="/.auth/login/aad?post_login_redirect_uri=/member/">Azure Active Directoryでログイン</a></li>
+        <li><a href="/.auth/login/github?post_login_redirect_uri=/member/">GitHubでログイン</a></li>
+        <li><a href="/login?post_login_redirect_uri=/member/">GitHubでログイン(Alias利用)</a></li>
+        <li><a href="/.auth/login/twitter?post_login_redirect_uri=/member/">twitterでログイン</a></li>
+        <li><a href="/.auth/logout">Log out</a></li>
     </body>
 </html>
