@@ -12,14 +12,8 @@
             "route": "/member/*",
             "serve": "/member/index.html",
             "allowedRoles": [
-                "reader",
-                "contributor"
-            ]
-        },
-        {
-            "route": "/",
-            "allowedRoles": [
-                "anonymous"
+                "developer",
+                "viewer"
             ]
         }
     ],
